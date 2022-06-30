@@ -1,0 +1,9 @@
+.SectionHowImg {
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .SectionHowImg {
+    width: 40rem;
+  }
+}

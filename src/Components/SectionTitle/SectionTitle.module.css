@@ -1,0 +1,24 @@
+.SectionTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.SectionTitle span {
+  text-shadow: -0.8rem 0.3rem 0.12rem rgba(0, 0, 0, 0.5);
+}
+
+.SectionTitle span:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .SectionTitle {
+    color: #2563eb;
+  }
+
+  .SectionTitle span {
+    text-shadow: -0.8rem 0.3rem 0.12rem rgba(37, 100, 235, 0.5);
+  }
+}

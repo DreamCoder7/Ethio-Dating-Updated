@@ -1,0 +1,40 @@
+.ToggleNav {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  cursor: pointer;
+  z-index: 9999;
+
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.ToggleNav div {
+  /* background-color: #1e2221; */
+  background-color: #1e3a8a;
+  width: 4rem;
+  height: 0.5rem;
+}
+
+.ToggleNav div:nth-child(2) {
+  width: 3.4rem;
+}
+
+.ToggleNavOpen {
+  align-items: flex-start;
+}
+
+@media (min-width: 800px) {
+  .ToggleNav {
+    right: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .ToggleNav {
+    right: 8rem;
+  }
+}

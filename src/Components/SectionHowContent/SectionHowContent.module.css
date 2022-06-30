@@ -1,0 +1,17 @@
+.SectionHowContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.Paragraph {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}

@@ -1,11 +1,16 @@
-import React from 'react';
-
+import React from "react";
+import Layout from "./hoc/Layout/Layout";
+import Header from "./Container/Header/Header";
+import SectionHow from "./Container/SectionHow/SectionHow";
+import SectionTesti from "./Container/SectionTesti/SectionTesti";
 
 function App() {
   return (
-    <div className="App">
-     <p>Welcome to Ethio Dating</p>
-    </div>
+    <Layout>
+      <Header />
+      <SectionHow />
+      <SectionTesti />
+    </Layout>
   );
 }
 

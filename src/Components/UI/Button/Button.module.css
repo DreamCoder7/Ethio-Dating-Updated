@@ -1,0 +1,42 @@
+.Button {
+  all: unset;
+  align-self: flex-start;
+  position: relative;
+
+  color: #374151;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Button::before {
+  content: "";
+  display: inline-block;
+  background-color: #93c5fd;
+  width: 100%;
+  height: 0.8rem;
+  border-radius: 1rem;
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-width: 800px) {
+  .Button {
+    border: 2px solid #2563eb;
+    padding: 1rem 2.4rem;
+    border-radius: 2rem;
+    transition: all 0.4s;
+  }
+
+  .Button:hover {
+    background-color: #2563eb;
+    color: #fff;
+  }
+
+  .Button::before {
+    display: none;
+  }
+}

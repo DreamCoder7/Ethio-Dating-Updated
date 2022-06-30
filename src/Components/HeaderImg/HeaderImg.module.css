@@ -1,0 +1,25 @@
+@media (min-width: 800px) {
+  .HeaderImg {
+    background-image: linear-gradient(
+        rgba(37, 100, 235, 0.6),
+        rgba(37, 100, 235, 0.6)
+      ),
+      url("../../assets/Images/hero-2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: circle(50% at 50% 50%);
+    width: 45rem;
+    height: 45rem;
+
+    transform: translateZ(4rem);
+  }
+}
+
+@media (min-width: 1200px) {
+  .HeaderImg {
+    align-self: flex-start;
+    width: 44rem;
+    height: 44rem;
+  }
+}

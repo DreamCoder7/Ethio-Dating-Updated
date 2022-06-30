@@ -1,0 +1,21 @@
+.Slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 1.6rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SlideButton {
+  all: unset;
+}
+
+.SlideIcon {
+  width: 6rem;
+  height: 6rem;
+}

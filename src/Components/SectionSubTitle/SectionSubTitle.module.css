@@ -1,0 +1,14 @@
+.SectionSubTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+@media (min-width: 800px) {
+  .SectionSubTitle {
+    color: #2563eb;
+  }
+}

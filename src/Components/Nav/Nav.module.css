@@ -1,0 +1,17 @@
+.Nav {
+  height: 8rem;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav ul {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .Nav ul {
+    display: flex;
+  }
+}
